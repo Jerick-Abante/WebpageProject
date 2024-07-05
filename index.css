@@ -1,0 +1,119 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+body{
+ width: 100%;
+ height: 100vh;
+ display: flex;
+ flex-direction: column-reverse;
+ justify-content: center;
+ align-items: center;
+ background-image: url('bg.png');
+ background-repeat: no-repeat;
+ background-position: center;
+}
+
+nav{
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ background-color: #0a0a0a;
+ z-index: 1;
+}
+
+nav div{
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ width: 100%;
+}
+
+nav a{
+ font-size: 40px;
+ text-decoration: none;
+ border-top: none;
+ border-bottom: none;
+ color: #fff;
+}
+
+nav a:hover{
+ text-decoration: none;
+ background: -webkit-linear-gradient(left, #ffffff, #00ccff, #f7a204, #fff );
+ background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
+.intro{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ font-size: 28px;
+}
+
+.intro img{
+ width: 30%;
+ border: 2px solid #000000;
+ border-radius: 100%;
+}
+
+.intro span{
+ color: #fff;
+}
+
+.about-me{
+ width: 100%;
+ height: 100vh;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ -webkit-backdrop-filter: blur(15px);
+ backdrop-filter: blur(15px);
+ padding: 0 10%;
+}
+
+.about-me > * {
+ margin-right: 5%;
+}
+
+.about-me img{
+ border-radius: 8px;
+}
+
+.about-me span{
+ color: #fff;
+ font-size: 40px;
+}
+
+.contact{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.contact div{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+
+}
+
+.contact div a{
+ text-decoration: none;
+ font-size: 32px;
+ color: #ffffff;
+ font-weight: 900;
+ -webkit-text-stroke-color: #000000;
+ -webkit-text-stroke-width: 2px;
+
+}
+
+.contact img{
+ width: 10%;
+ margin-right: 5%;
+}
